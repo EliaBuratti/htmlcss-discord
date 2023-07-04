@@ -12,6 +12,7 @@
     --text_color: white;
     --color_app: hsl(205.71deg 9.09% 15.1%);
     --bg_color_section: #e5e5e5;
+    --bg_download: hsl(226.27deg 58.04% 71.96%);
 }
 
 body {
@@ -161,6 +162,12 @@ i {
 
 .bg-grey {
     background-color: var(--bg_color_section);
+}
+
+.pink {
+    background-color: var(--bg_download);
+    color:var(--text_color);
+    margin-bottom: 10%;
 }
 
 
