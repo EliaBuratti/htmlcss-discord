@@ -9,11 +9,25 @@
 
 :root {
     --header_bk: rgba(49,97,224,255);
+    --text_color: white;
 }
+
+
 
 header {
     background-color: var(--header_bk);
+    color: var(--text_color);
+    padding: 1rem;
+
 }
+
+button {
+    border: none;
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+}
+
+
 
 footer {
     background-color: rgb(66,110,236);
