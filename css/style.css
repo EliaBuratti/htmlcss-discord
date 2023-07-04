@@ -56,11 +56,21 @@ h2 {
     padding-bottom: 1rem;
 }
 
+h3 {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
 
 
 p {
     line-height: 2rem;
-    margin-bottom: 5%;;
+    margin-top: 5%;
+    padding-bottom: 2%;
     font-size: 1.25rem;
 }
 
@@ -83,7 +93,7 @@ i {
 
 .end-start {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: end;
 }
 
@@ -152,6 +162,8 @@ i {
 .bg-grey {
     background-color: var(--bg_color_section);
 }
+
+
 
 /* sono arrivato fin qua */
 
