@@ -13,6 +13,8 @@
     --color_app: hsl(205.71deg 9.09% 15.1%);
     --bg_color_section: #e5e5e5;
     --bg_download: hsl(226.27deg 58.04% 71.96%);
+    --bg_footer:hsl(205.71deg 9.09% 15.1%);
+    --text_color_footer:hsl(226.73deg 58.43% 65.1%);
 }
 
 body {
@@ -36,12 +38,6 @@ button {
 }
 
 
-
-footer {
-    background-color: rgb(66, 110, 236);
-}
-
-
 h1 {
     margin-top: 15%;
     margin-bottom: 10%;
@@ -57,7 +53,9 @@ h2 {
     padding-bottom: 1rem;
 }
 
-h3 {
+
+
+h4 {
     background-image: url(../img/stars.svg);
     background-size: contain;
     max-width: 100%;
@@ -66,6 +64,18 @@ h3 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h5, h3 {
+    color: var(--text_color_footer);
+
+}
 
 
 p {
@@ -78,6 +88,18 @@ p {
 i {
     font-size: smaller;
 
+}
+
+li {
+    list-style: none;
+    color: var(--text_color);
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+footer {
+    background-color: var(--bg_footer);
+    padding: 3rem;
 }
 
 .container {
@@ -170,70 +192,28 @@ i {
     margin-bottom: 10%;
 }
 
+.top {
+    align-items: unset;
+    justify-content: space-between;
+}
+
+.social {
+    color: var(--text_color);
+    line-height: 3rem;
+    font-size: 1rem;
+}
+
+.logo_social {
+    margin-right: 1rem;
+}
+
+.hr{
+    border-top: 1px solid var(--bg_download);
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+
 
 
 /* sono arrivato fin qua */
-
-.download {
-    background-color: rgba(171, 174, 189, 255);
-    height: 10rem;
-    width: 45%;
-    margin: auto;
-    border: 1px dashed black;
-}
-
-.main_bottom {
-    margin-top: 6rem;
-    margin-bottom: 4rem;
-    height: 20rem;
-    background-color: rgba(249, 217, 156, 255);
-}
-
-/* footer */
-
-footer {
-    padding-bottom: 4rem;
-}
-
-
-.dark_grey {
-    background-color: rgba(163, 153, 162, 255);
-    height: 25rem;
-}
-
-
-.grey {
-    background-color: rgba(170, 168, 173, 255);
-
-}
-
-.logo,
-.button {
-    height: 2rem;
-    width: 5rem;
-    background-color: rgba(249, 217, 156, 255);
-}
-
-
-
-.top {
-    height: 15rem;
-    padding-top: 1rem;
-    justify-content: space-between;
-
-
-}
-
-.row.top.grey>div {
-    height: 10rem;
-}
-
-.top>div {
-    background-color: rgba(249, 217, 156, 255);
-}
-
-.mid {
-    height: 3rem;
-    justify-content: space-between;
-    align-items: center;
-}
