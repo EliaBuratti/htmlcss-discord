@@ -19,9 +19,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url(../img/jumbo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    min-width: 2000px;
 }
 
 
@@ -102,6 +100,15 @@ footer {
     padding: 3rem;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text_color);
+}
+
+body>header {
+    background-color: var(--header_bk);
+}
+
 .container {
     width: 80%;
     max-width: 1170px;
@@ -142,7 +149,9 @@ footer {
 }
 
 .jumbotron {
-
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-bottom: 15%;
@@ -203,7 +212,7 @@ footer {
     font-size: 1rem;
 }
 
-.logo_social {
+div.logo_social>i {
     margin-right: 1rem;
 }
 
